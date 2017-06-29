@@ -1,7 +1,7 @@
 {
   "name": "admin",
   "private": "true",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "common": "^1.0.0",
+    "common": "^1.0.1",
     "express": "^4.15.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
