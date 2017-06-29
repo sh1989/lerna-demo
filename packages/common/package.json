@@ -1,13 +1,13 @@
 {
   "name": "common",
   "private": "true",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
   "module": "src/index.js",
   "author": "",
   "license": "ISC",
   "dependencies": {
-      "react": "^15.6.1",
-      "react-dom": "^15.6.1"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   }
 }
