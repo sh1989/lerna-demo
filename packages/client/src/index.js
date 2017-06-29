@@ -4,7 +4,7 @@ import { TextBox } from 'common';
 
 const SimpleApp = () => (
   <div>
-    <h1>Hello</h1>
+    <h1>Client App</h1>
     <TextBox>
       <p>Hi!</p>
     </TextBox>
