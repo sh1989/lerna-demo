@@ -1,14 +1,14 @@
 {
   "name": "runner",
   "private": "true",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "module": "index.js",
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "admin": "^1.1.1",
-    "client": "^1.1.1",
+    "admin": "^1.1.2",
+    "client": "^1.1.2",
     "express": "^4.15.3"
   },
   "scripts": {
