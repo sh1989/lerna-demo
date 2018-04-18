@@ -1,14 +1,14 @@
 {
   "name": "common",
-  "private": "true",
+  "private": true,
   "version": "1.2.0",
   "description": "",
   "module": "src/index.js",
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "16.0.0",
-    "react-dom": "16.0.0",
-    "redux-actions": "2.2.1"
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "redux-actions": "2.3.0"
   }
 }

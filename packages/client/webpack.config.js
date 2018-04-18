@@ -31,6 +31,7 @@ const config = {
   resolve: {
     modules: [
       'node_modules',
+      path.join(__dirname, '..', 'common'),
       path.join(__dirname, 'src')
     ]
   },
