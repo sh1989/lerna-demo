@@ -1,4 +1,16 @@
 {
-  "presets": [["env", { "modules": false }], "stage-0", "react"],
-  "plugins": []
+  "env": {
+    "test": {
+      "presets": ["env", "stage-0", "react"],
+      "plugins": []
+    },
+    "development": {
+      "presets": [["env", { "modules": false}], "stage-0", "react"],
+      "plugins": []
+    },
+    "production": {
+      "presets": [["env", { "modules": false}], "stage-0", "react"],
+      "plugins": []
+    }
+  }
 }

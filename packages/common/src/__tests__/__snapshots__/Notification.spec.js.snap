@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification Component 1`] = `
+<div
+  className="notification"
+>
+  A message
+</div>
+`;

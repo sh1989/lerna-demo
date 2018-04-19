@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component 1`] = `
+<div>
+  <h1>
+    Client App
+  </h1>
+  <TextBox>
+    <p>
+      Hi!
+    </p>
+  </TextBox>
+</div>
+`;
