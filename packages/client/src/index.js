@@ -5,7 +5,8 @@ import { createStore, combineReducers } from 'redux';
 import { createDevTools } from 'redux-devtools';
 import LogMonitor from 'redux-devtools-log-monitor';
 import DockMonitor from 'redux-devtools-dock-monitor';
-import { TextBox, modules, requestLogin, login } from 'common';
+import { modules, requestLogin, login } from 'common';
+import App from './App';
 
 const DevTools = createDevTools(
   <DockMonitor
@@ -25,12 +26,7 @@ const store = createStore(
 const SimpleApp = () => (
   <Provider store={store}>
     <div>
-      <div>
-        <h1>Client App</h1>
-        <TextBox>
-          <p>Hi!</p>
-        </TextBox>
-      </div>
+      <App />
       <DevTools />
     </div>
   </Provider>
